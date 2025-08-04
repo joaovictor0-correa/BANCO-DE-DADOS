@@ -162,3 +162,10 @@ SET pedido.id_cliente = cliente.id;
 -- Configura id_cliente como chave estrangeira
 ALTER TABLE pedido ADD FOREIGN KEY (id_cliente) REFERENCES  cliente(id);
 
+-- Remover a coluna antiga 
+ALTER TABLE pedido DROP COLUMN cliente_nome; 
+
+select * from pedido;
+
+
+
