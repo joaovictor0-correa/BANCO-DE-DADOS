@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e3fa9; /* azul de fundo mais consistente */
+    margin: 0;
+}
+
+header {
+    background: #2648d8; /* azul médio para destaque */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    display: inline-block;
+    background: #2c4fe8; /* azul para botões */
+    color: white;          /* trocado para branco para melhor contraste */
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+li a:hover {
+    background: #3a6cff; /* azul um pouco mais claro no hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.produto {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
